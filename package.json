@@ -1,0 +1,21 @@
+{
+  "name": "the-team",
+  "version": "1.0.0",
+  "description": "A personal AI staff: Bennet the chief of staff plus four specialist agents, each with persistent memory.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.128.0",
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1"
+  }
+}
