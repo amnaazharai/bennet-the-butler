@@ -11,7 +11,7 @@ function fileFor(agentId) {
   return path.join(DATA_DIR, `${agentId}.json`);
 }
 
-// Each entry: { role: "user" | "assistant", content: string, ts: ISO string, via?: "bennett" }
+// Each entry: { role: "user" | "assistant", content: string, ts: ISO string, via?: "bennet" }
 export function loadHistory(agentId) {
   try {
     return JSON.parse(fs.readFileSync(fileFor(agentId), "utf8"));

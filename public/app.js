@@ -78,7 +78,7 @@ async function renderLanding() {
 
 function messageNode(m) {
   return el("div", { class: `msg ${m.role}${m.pending ? " pending" : ""}${m.error ? " error" : ""}` },
-    m.via === "bennett" && m.role === "user" ? el("span", { class: "via" }, "Relayed by Bennett") : null,
+    m.via === "bennet" && m.role === "user" ? el("span", { class: "via" }, "Relayed by Bennet") : null,
     el("div", { class: "bubble" }, m.content));
 }
 
@@ -135,7 +135,7 @@ async function renderChat(agentId) {
     if (!text || send.disabled) return;
     log.querySelector(".empty")?.remove();
     log.append(messageNode({ role: "user", content: text }));
-    const pending = messageNode({ role: "assistant", content: agent.featured ? "Bennett is looking into it…" : `${agent.name} is typing…`, pending: true });
+    const pending = messageNode({ role: "assistant", content: agent.featured ? "Bennet is looking into it…" : `${agent.name} is typing…`, pending: true });
     log.append(pending);
     input.value = "";
     autosize();

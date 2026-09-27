@@ -1,7 +1,7 @@
 {
   "name": "the-team",
   "version": "1.0.0",
-  "description": "A personal AI staff: Bennett the chief of staff plus four specialist agents, each with persistent memory.",
+  "description": "A personal AI staff: Bennet the chief of staff plus four specialist agents, each with persistent memory.",
   "type": "module",
   "main": "server.js",
   "scripts": {
