@@ -8,7 +8,7 @@ Five AI agents, each with their own persistent memory, behind a single landing p
 | 📚 **Darcy** | Learning Goals | Tracks what you're studying, breaks goals into steps, calls out what's stalled. |
 | 💼 **Knightley** | Work Tasks | Captures and prioritizes tasks, tracks deadlines, pushes back on unrealistic plans. |
 | 🥋 **Wentworth** | Health & Fitness | Jits, strength, recovery, sleep, nutrition. Flags overtraining and inconsistency. |
-| 📅 **Woodhouse** | Calendar & Email | Plans around commitments, drafts emails, flags things needing a reply. **No live Google Calendar or Gmail access.** |
+| 📅 **Woodhouse** | Calendar & Email | Plans around commitments, drafts emails, flags things needing a reply.|
 
 Chat with any specialist directly, or ask Bennet. Bennet quietly consults the specialists behind the scenes and answers in his own voice.
 
