@@ -1,4 +1,4 @@
-# The Team — a personal AI staff
+# Bennet the Butler — a personal AI staff
 
 Five AI agents, each with their own persistent memory, behind a single landing page:
 
